@@ -24,6 +24,7 @@ module.exports = merge(
             disableHostCheck: true,
             overlay: true,
             noInfo: true,
+            
             after: function(app, server, compiler)
             {
                 const port = server.options.port

@@ -1,6 +1,6 @@
 import './style.css'
-import init, { greet } from '../rust_wasm_to_js/pkg/'
+import init, { greet } from '../wasm_src/pkg/'
 ;(async () => {
   await init()
-  
+  greet('World from Rust and WASM!')
 })()

@@ -15,9 +15,9 @@ module.exports = {
     plugins:
     [
         new WasmPackPlugin({
-            crateDirectory: path.resolve(__dirname, "../rust_wasm_to_js"),
-            extraArgs: "--no-typescript --target web",
-            outName: "app"
+            crateDirectory: path.resolve(__dirname, "../wasm_src"),
+            extraArgs: "--target web",
+            outName: "app",
         }),
         new CopyWebpackPlugin({
             patterns: [
