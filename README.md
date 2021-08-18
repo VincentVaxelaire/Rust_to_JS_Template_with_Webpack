@@ -2,7 +2,7 @@
 *This is a working project but I'm still making some adjustments. Any help is appreciated*
 
 This is a template to build applications with Rust + wasm to a JS bundle with Webpack.
-To facilitate the development of web applications the current configuration allows you to reload HTML, CSS (or SCSS) and JS files from a source folder that requires no configuration on your part.
+To facilitate the development of web applications the current configuration allows you to reload HTML, CSS (or SCSS) and JS files from a source folder that requires no configuration from your side.
 <br>
 <br>
 
