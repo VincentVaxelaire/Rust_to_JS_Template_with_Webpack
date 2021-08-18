@@ -7,11 +7,9 @@ To facilitate the development of web applications the current configuration allo
 <br>
 
 ## Usage
-**To start the development server :**
-use *npm run dev* for development server
+**To start the development server :** npm run dev
 
-**To create your distribution *(dist folder)* ready to use :**
-use *npm run build* for production mod
+**To create your distribution *(dist folder)* ready to use :** npm run build
 <br>
 <br>
 
