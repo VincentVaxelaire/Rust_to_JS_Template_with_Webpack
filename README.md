@@ -7,6 +7,8 @@ To facilitate the development of web applications the current configuration allo
 <br>
 
 ## Usage
+**To init the project :** npm install
+
 **To start the development server :** npm run dev
 
 **To create your distribution *(dist folder)* ready to use :** npm run build
